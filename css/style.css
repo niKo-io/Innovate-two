@@ -1,0 +1,1032 @@
+/* common css here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url(../images/innovate-gradiant-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --theme-color: #8454f5;
+  --main-font: "Nunito", sans-serif;
+  --sceond-font: "Open Sans", sans-serif;
+  --main-fontcolor: #29313d;
+  --sceond-fontcolor: #29313d;
+}
+
+/* nav css starts here */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-nav {
+  color: var(--main-fontcolor);
+}
+
+.nav-item {
+  margin-left: 48px;
+}
+
+.nav-item:first-child {
+  margin-left: 0;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--main-font);
+  color: var(--main-fontcolor);
+  transition: all linear 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--theme-color);
+  transform: rotateX(-360deg);
+}
+
+.nav-button button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--sceond-font);
+  color: #fff;
+  padding: 20px 48px;
+  border: none;
+  border-radius: 18px;
+  background-color: var(--theme-color);
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.nav-button button::after {
+  content: "";
+  position: absolute;
+  background-color: #ffc556;
+  width: 130%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -2;
+  transition: all linear 0.3s;
+  transform: rotate(25deg);
+}
+
+.nav-button button:hover::after {
+  left: 0%;
+}
+
+/* banenr css starts here */
+#banner {
+  padding-top: 238px;
+  padding-bottom: 70px;
+}
+
+.banner-left-text h1 {
+  font-family: var(--main-font);
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  padding-bottom: 40px;
+  padding-top: 100px;
+}
+
+.banner-left-text p {
+  font-family: var(--sceond-font);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--sceond-fontcolor);
+  line-height: 200%;
+  padding-bottom: 52px;
+  padding-right: 130px;
+  padding-left: 26px;
+  position: relative;
+}
+
+.banner-left-text p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 80px;
+  background: #ffc556;
+}
+
+.banner-left-email {
+  position: relative;
+}
+
+.banner-left-email input {
+  width: 630px;
+  height: 110px;
+  border: none;
+  border-radius: 24px;
+  background-color: rgba(132, 84, 245, 0.3);
+  padding-left: 28px;
+}
+
+.banner-left-email input::placeholder {
+  font-family: var(--sceond-font);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--sceond-fontcolor);
+  text-transform: capitalize;
+}
+
+.banner-left-email input:focus-visible {
+  outline: none;
+}
+
+.banner-left-email button {
+  padding: 20px 48px;
+  border-radius: 18px;
+  border: none;
+  color: #fff;
+  background-color: var(--theme-color);
+  font-family: var(--sceond-font);
+  font-weight: 400;
+  font-size: 18px;
+  position: absolute;
+  top: 21%;
+  right: 4%;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.banner-left-email button::after {
+  content: "";
+  position: absolute;
+  background-color: #ffc556;
+  width: 130%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -2;
+  transition: all linear 0.3s;
+  transform: rotate(30deg);
+}
+
+.banner-left-email button:hover::after {
+  left: 0%;
+}
+
+/* logos css starts here */
+#logo {
+  padding: 130px 0;
+}
+
+/* logos css ends here */
+
+/* tool css starts here */
+#tool {
+  padding: 120px 0;
+}
+
+.tool-left {
+  margin-bottom: 80px;
+}
+
+.tool-left h2 {
+  font-size: 56px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  padding-right: 100px;
+}
+
+.tool-right p {
+  font-family: var(--sceond-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-top: 22px;
+  position: relative;
+}
+
+.tool-right p::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffc556;
+}
+
+.tool-card {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 48px;
+  border-radius: 30px;
+  border: 1px solid rgba(132, 84, 245, 0.5);
+  background: #ffffff;
+  transition: all linear 0.3s;
+}
+
+.tool-card:hover {
+  background-color: var(--theme-color);
+}
+
+.tool-card:hover h3 {
+  color: #fcfcfe;
+}
+
+.tool-card:hover p {
+  color: #fcfcfe;
+}
+
+.tool-card:hover a {
+  color: #fcfcfe;
+}
+
+.tool-card-head {
+  padding-bottom: 16px;
+}
+
+.tool-card-head #tool-icon {
+  font-size: 22px;
+  padding: 20px;
+  background: rgba(254, 196, 95, 0.15);
+  border-radius: 14px;
+  color: #fec35f;
+  transition: all linear 0.3s;
+}
+
+.tool-card:hover #tool-icon {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.tool-card-head h3 {
+  font-family: var(--main-font);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  color: var(--main-fontcolor);
+  transition: all linear 0.3s;
+}
+
+.tool-card-content p {
+  font-family: var(--sceond-font);
+  font-size: 18px;
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 180%;
+  padding-bottom: 18px;
+  transition: all linear 0.3s;
+}
+
+.tool-card-content a {
+  font-family: var(--sceond-font);
+  font-size: 20px;
+  color: var(--main-fontcolor);
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 100%;
+  transition: all linear 0.3s;
+}
+
+.tool-card-content a:hover {
+  color: #fff;
+}
+
+/* tool css ends here */
+
+/* goal css starts here */
+#goal {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 248px;
+}
+
+.goal-left-img {
+  width: 42%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.goal-right {
+  margin-top: 20%;
+}
+
+.goal-right h2 {
+  font-size: 56px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  margin-bottom: 0;
+}
+
+.goal-right p {
+  font-size: 18px;
+  font-family: var(--sceond-font);
+  font-weight: 400;
+  color: var(--sceond-fontcolor);
+  line-height: 180%;
+  padding-right: 70px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  margin-bottom: 0;
+}
+
+.goal-button button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--sceond-font);
+  color: #fff;
+  padding: 20px 48px;
+  border: none;
+  border-radius: 18px;
+  background-color: var(--theme-color);
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.goal-button button::after {
+  content: "";
+  position: absolute;
+  background-color: #ffc556;
+  width: 130%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -2;
+  transition: all linear 0.3s;
+  transform: rotate(30deg);
+}
+
+.goal-button button:hover::after {
+  left: 0%;
+}
+
+/* goal css ends here */
+
+/* list css starts here */
+#list {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.list-top-part {
+  background-color: rgba(132, 84, 245, 0.2);
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.list-top-part span {
+  padding: 26px 60px;
+  border-radius: 18px;
+  font-family: var(--sceond-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--theme-color);
+  line-height: 140%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all linear 0.3s;
+}
+
+.list-top-part span::after {
+  content: "";
+  position: absolute;
+  width: 130%;
+  height: 130%;
+  background: var(--theme-color);
+  transition: all linear.3s;
+  bottom: -100%;
+  right: -100%;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.list-top-part span:hover {
+  color: #fff;
+}
+
+.list-top-part span:hover::after {
+  bottom: 0%;
+  right: 0%;
+  transform: rotate(0deg);
+}
+
+.list-left {
+  padding-top: 146px;
+}
+
+.list-right {
+  padding-top: 120px;
+}
+
+.list-right h2 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+}
+
+.list-right p {
+  font-family: var(--sceond-font);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--sceond-fontcolor);
+  line-height: 180%;
+  padding-right: 80px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.list-button button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--sceond-font);
+  color: #fff;
+  padding: 20px 48px;
+  border: none;
+  border-radius: 18px;
+  background-color: var(--theme-color);
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.list-button button::after {
+  content: "";
+  position: absolute;
+  background-color: #ffc556;
+  width: 130%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -2;
+  transition: all linear 0.3s;
+  transform: rotate(25deg);
+}
+
+.list-button button:hover::after {
+  left: 0%;
+}
+
+/* list css ends here */
+
+/* plan css starts here */
+#plan {
+  padding-top: 120px;
+  padding-bottom: 164px;
+}
+
+.plan-head h2 {
+  font-family: var(--main-font);
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+
+.plan-switch span {
+  font-family: var(--sceond-font);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--sceond-fontcolor);
+  padding-right: 20px;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #8454f5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #8454f5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+
+  background: #8454f5;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.plan-card {
+  padding: 48px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin-top: 160px;
+  transition: all linear 0.3s;
+}
+
+.plan-left-content {
+  padding-bottom: 22px;
+}
+
+.plan-left-text .fa-square-check {
+  color: var(--sceond-fontcolor);
+  font-size: 18px;
+  transition: all linear 0.3s;
+}
+
+.plan-left-text h5 {
+  font-family: var(--sceond-font);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--sceond-fontcolor);
+  transition: all linear 0.3s;
+}
+
+.plan-left-end h5 {
+  font-family: var(--sceond-font);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--sceond-fontcolor);
+  transition: all linear 0.3s;
+}
+
+.plan-card-left-head {
+  padding-bottom: 28px;
+}
+
+.plan-card-left-head h3 {
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  transition: all linear 0.3s;
+}
+
+.plan-left-icon {
+  padding-right: 14px;
+}
+
+.plan-button button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--sceond-font);
+  color: var(--theme-color);
+  padding: 20px 48px;
+  border: none;
+  border-radius: 18px;
+  background-color: rgba(132, 84, 245, 0.2);
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  transition: all linear 0.3s;
+}
+
+.plan-button button::after {
+  content: "";
+  position: absolute;
+  background-color: #ffc556;
+  width: 130%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -2;
+  transition: all linear 0.3s;
+  transform: rotate(25deg);
+}
+
+.plan-button button:hover::after {
+  left: 0%;
+}
+
+.plan-card:hover {
+  background-color: #181059;
+  transform: translatey(-20%);
+}
+
+.plan-card:hover .plan-card-left-head h3 {
+  color: #f8fafc;
+}
+
+.plan-card:hover .fa-square-check {
+  color: #f8fafc;
+}
+
+.plan-card:hover .plan-left-text h5 {
+  color: #f8fafc;
+}
+
+.plan-card:hover .plan-left-end h5 {
+  color: #f8fafc;
+}
+
+.plan-card:hover .plan-button button {
+  background-color: var(--theme-color);
+  color: #fff;
+}
+
+/* plan css ends here */
+
+/* team css starts here */
+#team {
+  padding: 140px 0;
+}
+
+.team-head h2 {
+  font-family: var(--main-font);
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  padding-bottom: 90px;
+}
+
+.team-img img {
+  border-radius: 40px;
+}
+
+.team-text {
+  padding-top: 30px;
+}
+
+.team-text p {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.team-text h4 {
+  font-family: var(--main-font);
+  color: var(--main-fontcolor);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 180%;
+  padding-bottom: 14px;
+  margin-bottom: 0;
+}
+
+.team-icons {
+  width: 156px;
+}
+
+.team-icons .iocn {
+  padding: 10px 14px;
+  border-radius: 50%;
+  border: 1px solid #8454f5;
+  color: var(--theme-color);
+  transition: all linear 0.3s;
+}
+
+.team-icons .iocn:hover {
+  color: #ffffff;
+  background: var(--theme-color);
+}
+
+.team-icons .iocn2 {
+  padding: 11px 10px;
+  border-radius: 50%;
+  border: 1px solid #8454f5;
+  color: var(--theme-color);
+  transition: all linear 0.3s;
+}
+
+.team-icons .iocn2:hover {
+  color: #ffffff;
+  background: var(--theme-color);
+}
+
+.team-icons .iocn3 {
+  padding: 11px 11px;
+  border-radius: 50%;
+  border: 1px solid #8454f5;
+  color: var(--theme-color);
+  transition: all linear 0.3s;
+}
+
+.team-icons .iocn3:hover {
+  color: #ffffff;
+  background: var(--theme-color);
+}
+
+.team-text-angle {
+  width: 152px;
+  padding-top: 50px;
+}
+
+.team-text-angle .angle {
+  padding: 25px 28px;
+  background-color: rgba(132, 84, 245, 0.2);
+  border-radius: 10px;
+  color: #130f26;
+  transition: all linear.3s;
+}
+
+.team-text-angle .angle:hover {
+  background-color: var(--theme-color);
+  color: #fff;
+}
+
+/* team css ends here */
+
+/* trail css starts here */
+#trail {
+  padding: 140px 0;
+}
+
+.trail-head h2 {
+  font-family: var(--main-font);
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  padding-bottom: 28px;
+  margin-bottom: 0;
+}
+
+.trail-head p {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  padding-bottom: 48px;
+  margin-bottom: 0;
+}
+
+.trail-email input {
+  width: 512px;
+  height: 70px;
+  border: none;
+  border-radius: 24px;
+  background-color: rgba(132, 84, 245, 0.3);
+  padding-left: 28px;
+}
+
+.trail-email input::placeholder {
+  font-family: var(--sceond-font);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--sceond-fontcolor);
+  text-transform: capitalize;
+}
+
+.trail-email input:focus-visible {
+  outline: none;
+}
+
+.trail-email button {
+  padding: 20px 48px;
+  border-radius: 18px;
+  border: none;
+  color: #fff;
+  background-color: var(--theme-color);
+  font-family: var(--sceond-font);
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  top: 0;
+  left: 25px;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.trail-email button::after {
+  content: "";
+  position: absolute;
+  background-color: #ffc556;
+  width: 130%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -2;
+  transition: all linear 0.3s;
+  transform: rotate(25deg);
+}
+
+.trail-email button:hover::after {
+  left: 0%;
+}
+
+/* trail css ends here */
+/* footer css starts here */
+#footer {
+  padding-top: 140px;
+  padding-bottom: 57px;
+}
+
+.footer-logo-part img {
+  padding-bottom: 44px;
+}
+
+.footer-logo-part p {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  margin-bottom: 0;
+  padding-right: 80px;
+}
+
+.footer-features h4 {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  padding-bottom: 48px;
+  margin-bottom: 0;
+}
+
+.footer-features ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-features li:last-child {
+  padding-bottom: 0;
+}
+
+.footer-features li {
+  padding-bottom: 30px;
+}
+
+.footer-features a {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.footer-product h4 {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  padding-bottom: 48px;
+  margin-bottom: 0;
+}
+
+.footer-product ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-product li:last-child {
+  padding-bottom: 0;
+}
+
+.footer-product li {
+  padding-bottom: 30px;
+}
+
+.footer-product a {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.footer-support h4 {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--main-fontcolor);
+  line-height: 140%;
+  padding-bottom: 48px;
+  margin-bottom: 0;
+}
+
+.footer-support ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-support li:last-child {
+  padding-bottom: 0;
+}
+
+.footer-support li {
+  padding-bottom: 30px;
+}
+
+.footer-support a {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.copyright-part1 {
+  padding-top: 80px;
+}
+
+.copyright-part1 span {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.copyright-part2 {
+  padding-top: 80px;
+}
+
+.copyright-part2 span {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.copyright-part3 {
+  padding-top: 80px;
+}
+
+.copyright-part3 span {
+  font-family: var(--sceond-font);
+  color: var(--sceond-fontcolor);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* footer css ends here */

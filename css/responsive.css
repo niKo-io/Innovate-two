@@ -1,0 +1,1017 @@
+/* __________________xxl responsive here__________________ */
+@media (min-width: 1400px) {
+  /* goal part here */
+  .goal-right {
+    margin-top: 8%;
+  }
+}
+
+/* __________________xl responsive here__________________ */
+@media (min-width: 1200px) and (max-width: 1300.99px) {
+  /* banner part here */
+  .banner-left-email button {
+    right: -12%;
+  }
+
+  /* tool part here */
+  .tool-card-head h3 {
+    font-size: 24px;
+  }
+
+  /* goal part here */
+  .goal-right {
+    margin-top: 0;
+  }
+
+  .goal-right h2 {
+    font-size: 50px;
+  }
+
+  /* list part here */
+  .list-top-part span {
+    padding: 26px 38px;
+  }
+
+  .list-right p {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  /* plan part here */
+  .plan-left-text h5 {
+    font-size: 18px;
+  }
+
+  .plan-left-end h5 {
+    font-size: 18px;
+  }
+
+  /* team part here */
+  .team-text {
+    padding-top: 0;
+  }
+
+  .team-text p {
+    font-size: 18px;
+  }
+
+  .team-text h4 {
+    padding-bottom: 0;
+  }
+
+  .team-text-angle {
+    padding-top: 15px;
+  }
+}
+
+/* nav part here */
+/* __________________lg responsive here__________________ */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* nav part here */
+  .nav-item {
+    margin-left: 26px;
+  }
+
+  /* banner part here */
+  .banner-left-text p {
+    font-size: 14px;
+  }
+
+  .banner-left-email button {
+    right: -35%;
+  }
+
+  /* tool part here */
+  .tool-left h2 {
+    font-size: 50px;
+    padding-right: 0;
+  }
+
+  .tool-card-head h3 {
+    font-size: 26px;
+  }
+
+  /* goal part here */
+  .goal-right {
+    margin-top: 0;
+  }
+
+  .goal-right h2 {
+    font-size: 40px;
+  }
+
+  .goal-right p {
+    font-size: 16px;
+    padding-bottom: 22px;
+  }
+
+  /* list part here */
+  .list-top-part span {
+    padding: 26px 26px;
+    font-size: 18px;
+  }
+
+  /* plan part here */
+  .team-head h2 {
+    font-size: 50px;
+  }
+
+  .plan-left-text h5 {
+    font-size: 13px;
+  }
+
+  .plan-left-end h5 {
+    font-size: 13px;
+  }
+
+  /* team part here */
+  .team-text {
+    padding-top: 0;
+  }
+
+  .team-text p {
+    font-size: 14px;
+    padding-bottom: 0;
+  }
+
+  .team-text-angle {
+    padding-top: 22px;
+  }
+
+  /* tral part here */
+  .trail-head h2 {
+    font-size: 50px;
+  }
+}
+
+/* __________________md responsive here__________________ */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* nav part here */
+  .navbar {
+    background: #f9f9f9;
+    position: sticky;
+    z-index: 9999;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  .nav-button button {
+    padding: 20px 55px;
+    margin-top: 10px;
+  }
+
+  /* banner part here */
+  #banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .banner-left-text h1 {
+    font-size: 64px;
+    padding-top: 0;
+  }
+
+  .banner-left-email input {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 20px;
+  }
+
+  .banner-left-email input::placeholder {
+    font-size: 18px;
+  }
+
+  .banner-left-email button {
+    font-size: 18px;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .banner-right-part img {
+    padding-top: 80px;
+  }
+
+  /* logos part here */
+  #logo {
+    padding: 60px 0;
+  }
+
+  .logos-here {
+    margin-bottom: 40px;
+  }
+
+  /* tool part here */
+  #tool {
+    padding: 60px 0;
+  }
+
+  .tool-left {
+    margin-bottom: 0;
+  }
+
+  .tool-card-head h3 {
+    font-size: 22px;
+  }
+
+  .tool-card-content p {
+    font-size: 16px;
+    line-height: 180%;
+    padding-bottom: 18px;
+  }
+
+  .tool-card-content a {
+    font-size: 20px;
+  }
+
+  /* goal part here */
+  #goal {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .goal-left-img {
+    width: 100%;
+    position: relative;
+  }
+
+  .goal-right p {
+    font-size: 18px;
+    padding-right: 0;
+  }
+
+  /* list part here */
+  #list {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .list-top-part {
+    flex-wrap: wrap;
+  }
+
+  .list-top-part span {
+    margin-bottom: 20px;
+  }
+
+  .list-left {
+    padding-top: 60px;
+  }
+
+  .list-right {
+    padding-top: 60px;
+  }
+
+  .offset-1 {
+    margin-left: 0;
+  }
+
+  /* plan part here */
+  #plan {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .plan-card {
+    padding: 48px;
+    margin-top: 30px;
+  }
+
+  .plan-card:hover {
+    transform: translatey(0%);
+  }
+
+  .plan-card-left-head h3 {
+    font-size: 36px;
+  }
+
+  .plan-left-text h5 {
+    font-size: 15px;
+  }
+
+  .plan-left-end h5 {
+    font-size: 15px;
+  }
+
+  .plan-button button {
+    font-size: 16px;
+  }
+
+  /* team part here */
+  #team {
+    padding: 60px 0;
+  }
+
+  .team-text p {
+    font-size: 15px;
+    line-height: 160%;
+    padding-bottom: 10px;
+  }
+
+  .team-text h4 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .team-icons {
+    margin: 0 auto;
+  }
+
+  .team-text-angle {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .team-user-img {
+    padding-top: 80px;
+  }
+
+  /* trail part here */
+  #trail {
+    padding: 60px 0;
+  }
+
+  .trail-email input {
+    width: 500px;
+  }
+
+  /* footer part here */
+  #footer {
+    padding-top: 60px;
+  }
+
+  .footer-logo-part p {
+    padding-bottom: 40px;
+  }
+
+  .footer-features {
+    text-align: center;
+  }
+
+  .footer-product a {
+    font-size: 18px;
+  }
+
+  .footer-product {
+    text-align: center;
+  }
+
+  .footer-support h4 {
+    padding-top: 30px;
+  }
+
+  .footer-support a {
+    font-size: 18px;
+  }
+
+  .footer-support {
+    text-align: center;
+  }
+
+  .offset-4 {
+    margin-left: 0%;
+  }
+}
+
+/* __________________sm responsive here__________________ */
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* nav part here */
+  .navbar {
+    background: #f9f9f9;
+    position: sticky;
+    z-index: 9999;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  .nav-button button {
+    padding: 20px 55px;
+    margin-top: 10px;
+  }
+
+  /* banner part here */
+  #banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .banner-left-text h1 {
+    font-size: 50px;
+    padding-top: 0;
+  }
+
+  .banner-left-text p {
+    font-size: 18px;
+    line-height: 180%;
+    padding-right: 0px;
+  }
+
+  .banner-left-email input {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 20px;
+  }
+
+  .banner-left-email input::placeholder {
+    font-size: 18px;
+  }
+
+  .banner-left-email button {
+    font-size: 18px;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .banner-right-part img {
+    padding-top: 80px;
+  }
+
+  /* logos part here */
+  #logo {
+    padding: 60px 0;
+  }
+
+  .logos-here {
+    margin-bottom: 40px;
+  }
+
+  /* tool part here */
+  #tool {
+    padding: 60px 0;
+  }
+
+  .tool-left {
+    margin-bottom: 0;
+  }
+
+  .tool-left h2 {
+    font-size: 36px;
+    padding-right: 0;
+  }
+
+  .tool-right p {
+    font-size: 16px;
+    padding-right: 15px;
+  }
+
+  .tool-card-head h3 {
+    font-size: 28px;
+  }
+
+  .tool-card-content p {
+    font-size: 18px;
+    line-height: 180%;
+    padding-bottom: 18px;
+  }
+
+  .tool-card-content a {
+    font-size: 20px;
+  }
+
+  /* goal part here */
+  #goal {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .goal-left-img {
+    width: 100%;
+    position: relative;
+  }
+
+  .goal-right h2 {
+    font-size: 36px;
+  }
+
+  .goal-right p {
+    font-size: 18px;
+    padding-right: 0;
+  }
+
+  .goal-button button {
+    font-size: 18px;
+  }
+
+  /* list part here */
+  #list {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .list-top-part {
+    flex-wrap: wrap;
+  }
+
+  .list-top-part span {
+    padding: 26px 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .list-left {
+    padding-top: 60px;
+  }
+
+  .list-right {
+    padding-top: 60px;
+  }
+
+  .offset-1 {
+    margin-left: 0;
+  }
+
+  .list-right h2 {
+    font-size: 36px;
+  }
+
+  .list-right p {
+    font-size: 18px;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+
+  .list-button button {
+    font-size: 20px;
+  }
+
+  /* plan part here */
+  #plan {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .plan-head h2 {
+    font-size: 36px;
+  }
+
+  .plan-switch span {
+    font-size: 28px;
+  }
+
+  .plan-card {
+    padding: 48px;
+    margin-top: 30px;
+  }
+
+  .plan-card:hover {
+    transform: translatey(0%);
+  }
+
+  .plan-card-left-head h3 {
+    font-size: 36px;
+  }
+
+  .plan-left-text h5 {
+    font-size: 20px;
+  }
+
+  .plan-left-end h5 {
+    font-size: 20px;
+  }
+
+  .plan-button button {
+    font-size: 18px;
+  }
+
+  /* team part here */
+  #team {
+    padding: 60px 0;
+  }
+
+  .team-head h2 {
+    font-size: 36px;
+    padding-bottom: 40px;
+  }
+
+  .team-text p {
+    font-size: 20px;
+  }
+
+  .team-text h4 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .team-icons {
+    margin: 0 auto;
+  }
+
+  .team-text-angle {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .team-user-img {
+    padding-top: 80px;
+  }
+
+  /* trail part here */
+  #trail {
+    padding: 60px 0;
+  }
+
+  .trail-head h2 {
+    font-size: 36px;
+  }
+
+  .trail-head p {
+    font-size: 20px;
+  }
+
+  .trail-email button {
+    font-size: 18px;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* footer part here */
+  #footer {
+    padding-top: 60px;
+  }
+
+  .footer-logo-part p {
+    font-size: 18px;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+
+  .footer-features a {
+    font-size: 18px;
+  }
+
+  .footer-features {
+    text-align: center;
+  }
+
+  .footer-product a {
+    font-size: 18px;
+  }
+
+  .footer-product {
+    text-align: center;
+  }
+
+  .footer-support h4 {
+    padding-top: 30px;
+  }
+
+  .footer-support a {
+    font-size: 18px;
+  }
+
+  .footer-support {
+    text-align: center;
+  }
+
+  .copyright-part1 span {
+    font-size: 13px;
+  }
+
+  .offset-4 {
+    margin-left: 0%;
+  }
+
+  .copyright-part2 span {
+    font-size: 13px;
+  }
+
+  .copyright-part3 span {
+    font-size: 13px;
+  }
+}
+
+/* __________________xs responsive here__________________ */
+@media (max-width: 575.99px) {
+  /* nav part here */
+  .navbar {
+    background: #f9f9f9;
+    position: sticky;
+    z-index: 9999;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  .nav-button button {
+    padding: 20px 55px;
+    margin-top: 10px;
+  }
+
+  /* banner part here */
+  #banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .banner-left-text h1 {
+    font-size: 30px;
+    padding-top: 0;
+  }
+
+  .banner-left-text p {
+    font-size: 14px;
+    line-height: 165%;
+    padding-right: 0px;
+  }
+
+  .banner-left-email input {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .banner-left-email input::placeholder {
+    font-size: 13px;
+  }
+
+  .banner-left-email button {
+    font-size: 14px;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .banner-right-part img {
+    padding-top: 80px;
+  }
+
+  /* logos part here */
+  #logo {
+    padding: 60px 0;
+  }
+
+  .logos-here {
+    margin-bottom: 40px;
+  }
+
+  /* tool part here */
+  #tool {
+    padding: 60px 0;
+  }
+
+  .tool-left {
+    margin-bottom: 0;
+  }
+
+  .tool-left h2 {
+    font-size: 30px;
+    padding-right: 0;
+  }
+
+  .tool-right p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+
+  .tool-card-head h3 {
+    font-size: 18px;
+  }
+
+  .tool-card-content p {
+    font-size: 14px;
+    line-height: 165%;
+    padding-bottom: 10px;
+  }
+
+  .tool-card-content a {
+    font-size: 16px;
+  }
+
+  /* goal part here */
+  #goal {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .goal-left-img {
+    width: 100%;
+    position: relative;
+  }
+
+  .goal-right h2 {
+    font-size: 30px;
+  }
+
+  .goal-right p {
+    font-size: 15px;
+    padding-right: 0;
+  }
+
+  .goal-button button {
+    font-size: 14px;
+  }
+
+  /* list part here */
+  #list {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .list-top-part {
+    flex-wrap: wrap;
+  }
+
+  .list-top-part span {
+    padding: 26px 30px;
+    margin-bottom: 20px;
+  }
+
+  .list-left {
+    padding-top: 60px;
+  }
+
+  .list-right {
+    padding-top: 60px;
+  }
+
+  .offset-1 {
+    margin-left: 0;
+  }
+
+  .list-right h2 {
+    font-size: 30px;
+  }
+
+  .list-right p {
+    font-size: 14px;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+
+  .list-button button {
+    font-size: 16px;
+  }
+
+  /* plan part here */
+  #plan {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .plan-head h2 {
+    font-size: 30px;
+  }
+
+  .plan-switch span {
+    font-size: 20px;
+  }
+
+  .plan-card {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .plan-card:hover {
+    transform: translatey(0%);
+  }
+
+  .plan-card-left-head h3 {
+    font-size: 30px;
+  }
+
+  .plan-left-text h5 {
+    font-size: 15px;
+  }
+
+  .plan-left-end h5 {
+    font-size: 15px;
+  }
+
+  .plan-button button {
+    font-size: 16px;
+  }
+
+  /* team part here */
+  #team {
+    padding: 60px 0;
+  }
+
+  .team-head h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .team-text p {
+    font-size: 14px;
+  }
+
+  .team-text h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .team-icons {
+    margin: 0 auto;
+  }
+
+  .team-text-angle {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .team-user-img {
+    padding-top: 80px;
+  }
+
+  /* trail part here */
+  #trail {
+    padding: 60px 0;
+  }
+
+  .trail-head h2 {
+    font-size: 30px;
+  }
+
+  .trail-head p {
+    font-size: 13px;
+  }
+
+  .trail-email input {
+    width: 100%;
+  }
+
+  .trail-email button {
+    font-size: 16px;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* footer part here */
+  #footer {
+    padding-top: 60px;
+  }
+
+  .footer-logo-part p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .footer-features a {
+    font-size: 15px;
+  }
+
+  .footer-product a {
+    font-size: 15px;
+  }
+
+  .footer-support h4 {
+    padding-top: 30px;
+  }
+
+  .footer-support a {
+    font-size: 15px;
+  }
+
+  .footer-support {
+    text-align: center;
+  }
+
+  .copyright-part1 span {
+    font-size: 13px;
+  }
+
+  .offset-4 {
+    margin-left: 0%;
+  }
+
+  .copyright-part2 span {
+    font-size: 13px;
+  }
+
+  .copyright-part3 span {
+    font-size: 13px;
+  }
+}
